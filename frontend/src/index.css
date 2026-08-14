@@ -1,10 +1,26 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'); */
+
+@import "tailwindcss";
+
 * {
   box-sizing: border-box;
 }
 
-body{
+html {
+  font-family: Inter, Arial, sans-serif;
+}
+
+body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  font-family: Arial, sans-serif;
+  background-color: #faf8f2;
+  color: #294a37;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
 }
