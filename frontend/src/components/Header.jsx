@@ -22,13 +22,13 @@ function Header() {
 
     const title = titles[location.pathname] || "Overview";  
     return (
-        <header className="px-8 py-6 bg-[#dcecd9]">
+        <header className="px-8 py-6 bg-[#F8F5ED]">
 
             <div className="flex  items-center justify-between">
                 <div>
                     <p className="max-[760px]:hidden font-[DM_Mono] text-[10px] font-medium uppercase tracking-[0.16em] text-[#829385]">{formattedDate}</p>
 
-                    <h1 className="mt-1 text-[22px] font-bold">{title}</h1>
+                    <h1 className="mt-1 text-[22px] font-bold text-[#294735]">{title}</h1>
 
                 </div>
                 <div className="flex items-center gap-3">
